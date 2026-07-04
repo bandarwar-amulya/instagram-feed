@@ -1,37 +1,26 @@
 import "./App.css";
 import Post from "./Post";
-
-function App() {
-  const image1 =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlClICM_Ds9N1OtH7zrjG_6usEh6s6TR4h2w&s";
-
-  const image2 =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfhNw_e3tjWjuSNcsSizR7nmElDlnrFmfoA&s";
-
-  // Replace with a valid image URL
-  const image3 =
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIydZxo4cTdmNDc3ipbcqIlh3GrtliUneTQUIImqJ7w&s=10";
-
-  return (
-    <div className="posts">
-      <h1>Instagram Feed</h1>
-
-      <Post
-        image={image1}
-        name="Sri Charan Lakkaraju"
-      />
-
-      <Post
+import image1 from "./assets/image1.jpg"
+import image2 from "./assets/image2.jpg"
+import image3 from "./assets/image3.jpg"
+function App(){
+  return(
+    <div id="container">
+       <h1>Instagram Feed</h1>
+       <Post
+       name="Amulya"
         image={image2}
-        name="Rajshekar Gupta"
-      />
-
+     />
       <Post
+        name="siri"
         image={image3}
-        name="Pradeep Ranganathan"
-      />
+     />
+      <Post
+        name="laxmi"
+        image={image1}
+     />
     </div>
-  );
+  )
 }
 
 export default App;

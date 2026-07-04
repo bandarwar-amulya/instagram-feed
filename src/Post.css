@@ -1,9 +1,8 @@
-.post {
+/* .post {
   width: 350px;
   margin: 20px auto;
   border-radius: 10px;
   text-align: center;
-
 }
 
 .post-image {
@@ -12,6 +11,7 @@
   margin-bottom: 10px;
  justify-content: center;
  align-items: center;
+ 
 }
 
 button {
@@ -21,3 +21,6 @@ button {
 h1{
   text-align: center;
 }
+p{
+ font-size: medium;
+} */
