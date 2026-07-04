@@ -1,25 +1,37 @@
-import React from "react";
+import "./App.css";
 import Post from "./Post";
-import image1 from "./assets/image1.jpg";
-import image2 from "./assets/image2.jpg";
-import image3 from "./assets/image3.jpg";
-function App(){
-  return(
-    <div >
-       <h1>Instagram Feed</h1>
-       <Post
-        author="Amulya"
+
+function App() {
+  const image1 =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlClICM_Ds9N1OtH7zrjG_6usEh6s6TR4h2w&s";
+
+  const image2 =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfhNw_e3tjWjuSNcsSizR7nmElDlnrFmfoA&s";
+
+  // Replace with a valid image URL
+  const image3 =
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIydZxo4cTdmNDc3ipbcqIlh3GrtliUneTQUIImqJ7w&s=10";
+
+  return (
+    <div className="posts">
+      <h1>Instagram Feed</h1>
+
+      <Post
         image={image1}
-     />
+        name="Sri Charan Lakkaraju"
+      />
+
       <Post
-        author="siri"
         image={image2}
-     />
+        name="Rajshekar Gupta"
+      />
+
       <Post
-        author="laxmi"
         image={image3}
-     />
+        name="Pradeep Ranganathan"
+      />
     </div>
-  )
+  );
 }
-export default App
+
+export default App;
