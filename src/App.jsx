@@ -12,11 +12,11 @@ function App(){
         image={image1}
      />
       <Post
-        author="Amulya"
+        author="siri"
         image={image2}
      />
       <Post
-        author="Amulya"
+        author="laxmi"
         image={image3}
      />
     </div>

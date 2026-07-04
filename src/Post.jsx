@@ -12,20 +12,24 @@ return(
       borderRadius:"20px",
       Gap:"100px",
       padding:"20px",
-      height:"450px",
+      paddingBottom:"10px",
+      height:"400px",
       width:"300px",
       margin:"50px",
-     marginLeft:"250px"
+     marginLeft:"400px",
+     marginTop:"10px"
     }}>
     
     <h1>{props.author}</h1>
      <img
         src={props.image}
         alt={props.author}
-        width="300"
+        width="300px" height="250px"
       />
     <button onClick={handleLike}  style={{
-      display:"block"
+      display:"block",
+      margin:"10px",
+      // padding:"10px"
     }}>
      ❤️ likes{likes}
     </button>

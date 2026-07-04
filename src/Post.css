@@ -7,12 +7,17 @@
 }
 
 .post-image {
-  width: 100%;
+  width:300px;
   border-radius: 10px;
   margin-bottom: 10px;
+ justify-content: center;
+ align-items: center;
 }
 
 button {
   padding: 8px 15px;
   cursor: pointer;
+}
+h1{
+  text-align: center;
 }
